@@ -1,0 +1,1218 @@
+
+Test Case 1  		<error>
+   File that matches according the name :  Does not match
+
+
+Test Case 2  		<error>
+   Size :  Match
+
+
+Test Case 3  		<error>
+   Number of Options :  None
+
+
+Test Case 4  		<single>
+   Number of Options :  One
+
+
+Test Case 5  		<error>
+   option c (copy) :  Does not exist
+
+
+Test Case 6  		<error>
+   value for c option :  Does not exist
+
+
+Test Case 7  		<error>
+   value for argument c datatype :  Non Integer
+
+
+Test Case 8  		<single>
+   argument c integer value :  MaxInt
+
+
+Test Case 9  		<error>
+   argument d values in option :  Does not Exist
+
+
+Test Case 10 		<error>
+   argument b values in option :  Does not exist
+
+
+Test Case 11 		<error>
+   value of argument b datatype :  Not Character
+
+
+Test Case 12 		<error>
+   argument r values in option :  Exist
+
+
+Test Case 13 		(Key = 1.2.3.0.0.0.0.2.0.0.2.0.0.0.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Two
+   option c (copy)                      :  <n/a>
+   value for c option                   :  <n/a>
+   value for argument c datatype        :  <n/a>
+   argument c integer value             :  <n/a>
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  <n/a>
+   argument r values in option          :  <n/a>
+
+
+Test Case 14 		(Key = 1.2.4.1.1.1.1.1.1.1.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 15 		(Key = 1.2.4.1.1.1.1.1.1.1.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 16 		(Key = 1.2.4.1.1.1.1.1.1.1.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 17 		(Key = 1.2.4.1.1.1.1.1.1.1.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 18 		(Key = 1.2.4.1.1.1.1.1.1.2.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 19 		(Key = 1.2.4.1.1.1.1.1.1.2.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 20 		(Key = 1.2.4.1.1.1.1.1.1.2.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 21 		(Key = 1.2.4.1.1.1.1.1.1.2.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 22 		(Key = 1.2.4.1.1.1.1.1.1.3.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 23 		(Key = 1.2.4.1.1.1.1.1.1.3.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 24 		(Key = 1.2.4.1.1.1.1.1.1.3.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 25 		(Key = 1.2.4.1.1.1.1.1.1.3.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 26 		(Key = 1.2.4.1.1.1.1.2.0.0.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 27 		(Key = 1.2.4.1.1.1.1.2.0.0.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 28 		(Key = 1.2.4.1.1.1.1.2.0.0.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 29 		(Key = 1.2.4.1.1.1.1.2.0.0.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 30 		(Key = 1.2.4.1.1.1.2.1.1.1.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 31 		(Key = 1.2.4.1.1.1.2.1.1.1.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 32 		(Key = 1.2.4.1.1.1.2.1.1.1.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 33 		(Key = 1.2.4.1.1.1.2.1.1.1.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 34 		(Key = 1.2.4.1.1.1.2.1.1.2.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 35 		(Key = 1.2.4.1.1.1.2.1.1.2.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 36 		(Key = 1.2.4.1.1.1.2.1.1.2.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 37 		(Key = 1.2.4.1.1.1.2.1.1.2.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 38 		(Key = 1.2.4.1.1.1.2.1.1.3.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 39 		(Key = 1.2.4.1.1.1.2.1.1.3.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 40 		(Key = 1.2.4.1.1.1.2.1.1.3.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 41 		(Key = 1.2.4.1.1.1.2.1.1.3.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 42 		(Key = 1.2.4.1.1.1.2.2.0.0.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 43 		(Key = 1.2.4.1.1.1.2.2.0.0.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 44 		(Key = 1.2.4.1.1.1.2.2.0.0.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 45 		(Key = 1.2.4.1.1.1.2.2.0.0.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  >26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 46 		(Key = 1.2.4.1.1.1.3.1.1.1.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 47 		(Key = 1.2.4.1.1.1.3.1.1.1.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 48 		(Key = 1.2.4.1.1.1.3.1.1.1.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 49 		(Key = 1.2.4.1.1.1.3.1.1.1.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 50 		(Key = 1.2.4.1.1.1.3.1.1.2.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 51 		(Key = 1.2.4.1.1.1.3.1.1.2.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 52 		(Key = 1.2.4.1.1.1.3.1.1.2.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 53 		(Key = 1.2.4.1.1.1.3.1.1.2.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 54 		(Key = 1.2.4.1.1.1.3.1.1.3.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 55 		(Key = 1.2.4.1.1.1.3.1.1.3.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 56 		(Key = 1.2.4.1.1.1.3.1.1.3.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 57 		(Key = 1.2.4.1.1.1.3.1.1.3.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 58 		(Key = 1.2.4.1.1.1.3.2.0.0.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 59 		(Key = 1.2.4.1.1.1.3.2.0.0.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 60 		(Key = 1.2.4.1.1.1.3.2.0.0.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 61 		(Key = 1.2.4.1.1.1.3.2.0.0.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <26
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 62 		(Key = 1.2.4.1.1.1.4.1.1.1.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 63 		(Key = 1.2.4.1.1.1.4.1.1.1.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 64 		(Key = 1.2.4.1.1.1.4.1.1.1.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 65 		(Key = 1.2.4.1.1.1.4.1.1.1.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  characters with space in-between
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 66 		(Key = 1.2.4.1.1.1.4.1.1.2.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 67 		(Key = 1.2.4.1.1.1.4.1.1.2.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 68 		(Key = 1.2.4.1.1.1.4.1.1.2.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 69 		(Key = 1.2.4.1.1.1.4.1.1.2.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Alphabet-number characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 70 		(Key = 1.2.4.1.1.1.4.1.1.3.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 71 		(Key = 1.2.4.1.1.1.4.1.1.3.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 72 		(Key = 1.2.4.1.1.1.4.1.1.3.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 73 		(Key = 1.2.4.1.1.1.4.1.1.3.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Exist
+   argument d values in option          :  Exist
+   value for argument d                 :  Special-characters
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 74 		(Key = 1.2.4.1.1.1.4.2.0.0.1.1.1.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 75 		(Key = 1.2.4.1.1.1.4.2.0.0.1.1.1.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Exist
+   argument b values in option          :  Exist
+   value of argument b datatype         :  Character
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+
+
+Test Case 76 		(Key = 1.2.4.1.1.1.4.2.0.0.2.0.0.1.2.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Exist
+   argument r values in option          :  Does not exist
+
+
+Test Case 77 		(Key = 1.2.4.1.1.1.4.2.0.0.2.0.0.2.0.)
+   File that matches according the name :  Match
+   Size                                 :  Does not match
+   Number of Options                    :  Many
+   option c (copy)                      :  Exist
+   value for c option                   :  Exist
+   value for argument c datatype        :  Integer
+   argument c integer value             :  <0
+   option for argument d (destination)  :  Does not Exist
+   argument d values in option          :  <n/a>
+   value for argument d                 :  <n/a>
+   option for argument b (backup)       :  Does not exist
+   argument b values in option          :  <n/a>
+   value of argument b datatype         :  <n/a>
+   option for argument r (recursive)    :  Does not exist
+   argument r values in option          :  <n/a>
+

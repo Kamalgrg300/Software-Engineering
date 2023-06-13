@@ -1,0 +1,87 @@
+
+
+#	FILENAME
+	File that matches according the name:
+		
+		Match.						[property filematch]
+		Does not match.					[error]	
+
+# 	FILE
+	Size:
+		
+		Match.						[error][if filematch]
+		Does not match.					[if filematch]
+		
+	
+#	OPTIONS
+	Number of Options:
+
+		None.						[error]
+		One.						[single]
+		Two.						[property twooptions]
+		Many.						[property manyoptions]
+
+
+	option c (copy):
+		Exist.						[if manyoptions][property optioncexist]
+		Does not exist.					[error]	
+			
+	value for c option:
+		Exist.						[if optioncexist][property optioncvalueexist]
+		Does not exist.					[error][if optioncexist]
+
+	value for argument c datatype:
+		Integer.					[if optioncvalueexist][property optioncvalueinteger]
+		Non Integer.					[error][if optioncvalueexist]
+
+
+	argument c integer value:
+		0.						[if optioncvalueinteger]
+		>26.						[if optioncvalueinteger]
+		<26.						[if optioncvalueinteger]
+		<0.						[if optioncvalueinteger]
+		MaxInt.						[single][if optioncvalueinteger]
+
+
+	option for argument d (destination):
+		Exist.						[if manyoptions][property optiondexist]
+		Does not Exist.	
+			
+	argument d values in option:
+		Exist.						[if optiondexist][property optiondvalueexist]
+		Does not Exist.					[error][if optiondexist]
+
+	value for argument d:
+		
+		
+		characters with space in-between.		[if optiondvalueexist]
+		Alphabet-number characters.			[if optiondvalueexist]
+		Special-characters.				[if optiondvalueexist]
+
+
+
+	option for argument b (backup):
+		Exist.						[if manyoptions][property optionbexist]
+		Does not exist.	
+			
+	argument b values in option:	
+		Exist.						[if optionbexist][property optionbvalueexist]
+		Does not exist.					[error][if optionbexist]
+
+	value of argument b datatype:
+		Character.					[if optionbvalueexist][property optionbvalueint]
+		Not Character.					[error][if optionbvalueexist]
+
+
+
+	option for argument r (recursive):
+		
+		Exist.						[if manyoptions][property optionrexist]
+		Does not exist.					[if (optioncexist || optiondexist)]
+		
+
+	argument r values in option:
+		Exist.						[error][if optionrexist]
+		Does not exist.					[if optionrexist]
+		
+		
